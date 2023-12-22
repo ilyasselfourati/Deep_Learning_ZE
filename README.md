@@ -8,19 +8,23 @@ Cette [``Repository ``](https://github.com/ilyasselfourati/Deep_Learning_ZE) est
 
 > Pour chaque problème, nous avons testé trois modèles pour chaque problème.
 
-<div align="center">
-<div>
-<b>Etudiants : </b>
+<div style="display: flex;">
 
-- Zineb Aissaoui
+  <!-- Colonne des étudiants -->
+  <div style="flex: 1; padding-right: 20px;">
+    <b>Etudiants :</b>
+    <ul>
+      <li>Zineb Aissaoui</li>
+      <li>Ilyass El Fourati</li>
+    </ul>
+  </div>
 
-- Ilyass El Fourati
+  <!-- Colonne des professeurs -->
+  <div style="flex: 1;">
+    <b>Professeur :</b>
+    <ul>
+      <li>Vincent Lefieux</li>
+    </ul>
+  </div>
+
 </div>
-<div>
-<b>Professeur : </b>
-
-- Vincent Lefieux
-</div>
-
-</div>
-
