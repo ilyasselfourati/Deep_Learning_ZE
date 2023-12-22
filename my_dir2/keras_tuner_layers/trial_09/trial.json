@@ -1,1 +1,154 @@
-{"trial_id": "09", "hyperparameters": {"space": [{"class_name": "Int", "config": {"name": "units1", "default": null, "conditions": [], "min_value": 150, "max_value": 300, "step": 20, "sampling": "linear"}}, {"class_name": "Int", "config": {"name": "num_layers", "default": null, "conditions": [], "min_value": 2, "max_value": 5, "step": 1, "sampling": "linear"}}, {"class_name": "Int", "config": {"name": "units2", "default": null, "conditions": [], "min_value": 100, "max_value": 300, "step": 20, "sampling": "linear"}}, {"class_name": "Choice", "config": {"name": "learning_rate", "default": 0.01, "conditions": [], "values": [0.01, 0.005, 0.1], "ordered": true}}, {"class_name": "Int", "config": {"name": "units3", "default": null, "conditions": [], "min_value": 100, "max_value": 300, "step": 20, "sampling": "linear"}}, {"class_name": "Int", "config": {"name": "units4", "default": null, "conditions": [], "min_value": 100, "max_value": 300, "step": 20, "sampling": "linear"}}, {"class_name": "Int", "config": {"name": "units5", "default": null, "conditions": [], "min_value": 100, "max_value": 300, "step": 20, "sampling": "linear"}}], "values": {"units1": 150, "num_layers": 2, "units2": 280, "learning_rate": 0.005, "units3": 200, "units4": 300, "units5": 100}}, "metrics": {"metrics": {"loss": {"direction": "min", "observations": [{"value": [0.23687802255153656], "step": 41}]}, "accuracy": {"direction": "max", "observations": [{"value": [0.9125905831654867], "step": 41}]}, "val_loss": {"direction": "min", "observations": [{"value": [0.2294317881266276], "step": 41}]}, "val_accuracy": {"direction": "max", "observations": [{"value": [0.9420289993286133], "step": 41}]}}}, "score": 0.9420289993286133, "best_step": 41, "status": "COMPLETED", "message": null}
+{
+    "trial_id": "09",
+    "hyperparameters": {
+        "space": [
+            {
+                "class_name": "Int",
+                "config": {
+                    "name": "units1",
+                    "default": null,
+                    "conditions": [],
+                    "min_value": 150,
+                    "max_value": 300,
+                    "step": 20,
+                    "sampling": "linear"
+                }
+            },
+            {
+                "class_name": "Int",
+                "config": {
+                    "name": "num_layers",
+                    "default": null,
+                    "conditions": [],
+                    "min_value": 2,
+                    "max_value": 5,
+                    "step": 1,
+                    "sampling": "linear"
+                }
+            },
+            {
+                "class_name": "Int",
+                "config": {
+                    "name": "units2",
+                    "default": null,
+                    "conditions": [],
+                    "min_value": 100,
+                    "max_value": 300,
+                    "step": 20,
+                    "sampling": "linear"
+                }
+            },
+            {
+                "class_name": "Choice",
+                "config": {
+                    "name": "learning_rate",
+                    "default": 0.01,
+                    "conditions": [],
+                    "values": [
+                        0.01,
+                        0.005,
+                        0.1
+                    ],
+                    "ordered": true
+                }
+            },
+            {
+                "class_name": "Int",
+                "config": {
+                    "name": "units3",
+                    "default": null,
+                    "conditions": [],
+                    "min_value": 100,
+                    "max_value": 300,
+                    "step": 20,
+                    "sampling": "linear"
+                }
+            },
+            {
+                "class_name": "Int",
+                "config": {
+                    "name": "units4",
+                    "default": null,
+                    "conditions": [],
+                    "min_value": 100,
+                    "max_value": 300,
+                    "step": 20,
+                    "sampling": "linear"
+                }
+            },
+            {
+                "class_name": "Int",
+                "config": {
+                    "name": "units5",
+                    "default": null,
+                    "conditions": [],
+                    "min_value": 100,
+                    "max_value": 300,
+                    "step": 20,
+                    "sampling": "linear"
+                }
+            }
+        ],
+        "values": {
+            "units1": 150,
+            "num_layers": 2,
+            "units2": 280,
+            "learning_rate": 0.005,
+            "units3": 200,
+            "units4": 300,
+            "units5": 100
+        }
+    },
+    "metrics": {
+        "metrics": {
+            "loss": {
+                "direction": "min",
+                "observations": [
+                    {
+                        "value": [
+                            0.23687802255153656
+                        ],
+                        "step": 41
+                    }
+                ]
+            },
+            "accuracy": {
+                "direction": "max",
+                "observations": [
+                    {
+                        "value": [
+                            0.9125905831654867
+                        ],
+                        "step": 41
+                    }
+                ]
+            },
+            "val_loss": {
+                "direction": "min",
+                "observations": [
+                    {
+                        "value": [
+                            0.2294317881266276
+                        ],
+                        "step": 41
+                    }
+                ]
+            },
+            "val_accuracy": {
+                "direction": "max",
+                "observations": [
+                    {
+                        "value": [
+                            0.9420289993286133
+                        ],
+                        "step": 41
+                    }
+                ]
+            }
+        }
+    },
+    "score": 0.9420289993286133,
+    "best_step": 41,
+    "status": "COMPLETED",
+    "message": null
+}
